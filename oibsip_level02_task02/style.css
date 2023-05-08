@@ -9,6 +9,34 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.topnav {
+  align-items: center;
+  padding-left: 40%;
+  overflow: hidden;
+  background-color: #3c366b;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #423d61;
+  color: white;
+}
+
+
 /*  */
 #movies {
   max-width: 100%;
@@ -17,6 +45,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  color: #3c366b;
 }
 
 .row {
@@ -64,13 +93,25 @@ body {
   box-shadow: none !important;
   padding: 8px 20px;
   border-radius: 2px !important;
-  border: 2px solid #3c366b !important;
-  color: #3c366b !important;
-  background-color: none !important;
+  border: 1px solid #423d61 !important;
+  color: #fff !important;
+  background-color: #3c366b !important;
 }
 
 .btn-primary:hover {
-  background: #3c366b !important;
+  background: #423d61 !important;
   color: #fff !important;
   border: 2px solid #3c366b !important;
+}
+
+#life{
+  padding: 20px;
+  color: #3c366b;
+}
+
+h3{
+  color: #3c366b;
+  text-decoration: underline;
+  margin: 10px 0px;
+  padding: 10px 0px;
 }
