@@ -1,4 +1,3 @@
-function myFunction(){
-    document.getElementById('btn').innerHTML = 'okay';
-    return;
+function myButton(){
+    document.getElementById('demo').innerHTML = 'This is my to do list';
 }
