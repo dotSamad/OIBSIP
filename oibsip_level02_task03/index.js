@@ -25,13 +25,13 @@ listContainer.addEventListener("click", function (e) {
         e.target.parentElement.remove();
         saveData();
     }
-}, false); 
+}, false);
 
-function saveData(){
+function saveData() {
     localStorage.setItem("data", listContainer.innerHTML);
 }
 
-function showData(){
+function showData() {
     listContainer.innerHTML = localStorage.getItem("data");
 }
 showData();
